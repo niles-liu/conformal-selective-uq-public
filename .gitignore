@@ -1,0 +1,35 @@
+# --- data & caches (never commit; large or regenerated locally) ---
+data/
+!data/.gitkeep
+*.parquet
+*.csv
+*.feather
+*.pkl
+*.npz
+.cache/
+
+# --- privacy backstop ---
+# This is the public repository. No account-derived, position, or holdings data
+# ever belongs here; these patterns stop any such file from being committed by accident.
+*_real_*
+*account*
+private/
+
+# --- secrets ---
+.env
+.env.*
+*.key
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# --- build / figures scratch ---
+build/
+*.log

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or its methods, please cite it as below."
+title: "conformal-selective-uq: mechanism-validated selective conformal regression with conditional coverage under shift"
+abstract: >-
+  A portable, pre-registered selective conformal regression method that holds
+  group-conditional coverage under documented distribution shift and is
+  mechanism-validated against a known irreducible-noise floor, demonstrated on
+  cross-sectional financial allocation reconstruction.
+type: software
+authors:
+  - family-names: Liu
+    given-names: Niles
+version: "0.1.0"
+date-released: "2026-07-01"
+license: MIT
+keywords:
+  - conformal prediction
+  - selective prediction
+  - conditional coverage
+  - distribution shift
+  - uncertainty quantification
+  - quantile regression
+# TODO: set the public repository URL once created.
+repository-code: "https://github.com/REPLACE_ME/conformal-selective-uq"
+# TODO (post-acceptance): add a `preferred-citation:` block pointing to the
+# COPA 2026 / PMLR Vol 329 extended abstract once it is accepted and published.
